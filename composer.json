@@ -1,0 +1,25 @@
+{
+    "name": "chekun/bcms",
+    "version": "1.0.0",
+    "description": "Baidu Cloud Message Service(百度云消息服务)",
+    "license": "MIT",
+    "homepage": "http://github.com/chekun/bcms",
+    "authors": [
+        {
+            "name": "chekun",
+            "email": "234267695@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "kriswallsmith/buzz": "dev-master"
+    },
+    "require-dev": {
+        "illuminate/queue": "4.0.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "Chekun\\Bcms": "src/"
+        }
+    }
+}
